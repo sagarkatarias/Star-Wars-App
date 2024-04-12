@@ -1,12 +1,13 @@
-import './App.css'
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import AppRouter from "./components/AppRouter";
 
 function App() {
-
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
-  )
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
