@@ -16,7 +16,7 @@ const CustomAppBar = () => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h1" style={{ flexGrow: 1 }}>
-          <Link to="/" >
+          <Link to="/" style={{textDecoration: "none"}}>
             Star Wars App
           </Link>
         </Typography>
