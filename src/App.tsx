@@ -1,12 +1,13 @@
-import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import AppRouter from "./components/AppRouter";
+import { CssBaseline } from "@mui/material";
+import Layout from "./components/Layout";
 
 function App() {
   return (
-    <BrowserRouter>
-      <AppRouter />
-    </BrowserRouter>
+    <>
+      <CssBaseline />
+      <Layout />
+    </>
   );
 }
 
