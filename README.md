@@ -19,3 +19,7 @@ I have also added a context for loading Films on initial render just to showcase
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Run "npm i" to install dependencies
+Run "npm start" to start the project
+
+
